@@ -146,7 +146,7 @@ def read_wave_with_scipy(filename):
     return wave
 
 
-def play_wave(filename="sound.wav", player="aplay"):
+def play_wave(filename="sound.wav", player="open"):
     """Plays a wave file.
 
     filename: string
